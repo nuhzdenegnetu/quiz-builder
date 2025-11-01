@@ -1,0 +1,13 @@
+{
+  "name": "quiz-builder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "format": "npm run format --prefix frontend && npm run format --prefix backend",
+    "lint": "npm run lint --prefix frontend && npm run lint --prefix backend",
+    "type-check": "npm run type-check --prefix frontend",
+    "verify": "npm run format && npm run lint && npm run type-check",
+    "setup": "npm install --prefix backend && npm install --prefix frontend"
+  }
+}
+
