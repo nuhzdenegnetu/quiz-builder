@@ -62,7 +62,7 @@ quiz-builder/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/nuhzdenegnetu/quiz-builder
 cd quiz-builder
 ```
 
